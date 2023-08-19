@@ -2,6 +2,8 @@
   "name": "RNmap",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
+  
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -13,6 +15,7 @@
     "axios": "^1.4.0",
     "react": "18.2.0",
     "react-native": "0.72.4",
+    "react-native-config": "^1.5.1",
     "react-native-maps": "^1.7.1"
   },
   "devDependencies": {
@@ -29,6 +32,8 @@
     "jest": "^29.2.1",
     "metro-react-native-babel-preset": "0.76.8",
     "prettier": "^2.4.1",
+    "react-native-dotenv": "^3.4.9",
+    "react-native-env": "^0.0.6",
     "react-test-renderer": "18.2.0",
     "typescript": "4.8.4"
   },
