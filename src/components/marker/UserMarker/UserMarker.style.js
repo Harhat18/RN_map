@@ -1,10 +1,11 @@
 const {StyleSheet} = require('react-native');
 
 export default StyleSheet.create({
-  container: {},
   image: {
-    width: 100,
-    height: 100,
-    borderRadius: 50,
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    borderColor: '#e0e0e0',
+    backgroundColor: 'white',
   },
 });
